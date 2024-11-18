@@ -5,7 +5,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:unicorn/recommended"
   ],
-  "plugins": ["jsx-a11y", "simple-import-sort", "security", "unicorn"],
+  "plugins": ["jsx-a11y", "simple-import-sort", "security", "unicorn", "promise"],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -36,6 +36,12 @@
         "ignoreTemplateLiterals": false,
         "ignoreRegExpLiterals": false
       }
-    ]
+    ],
+    "promise/always-return": "warn",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/catch-or-return": "warn",
+    "promise/no-new-statics": "error",
+    "promise/valid-params": "warn"
   }
 }
