@@ -12,5 +12,6 @@
   "proseWrap": "preserve",
   "htmlWhitespaceSensitivity": "css",
   "quoteProps": "as-needed",
-  "embeddedLanguageFormatting": "auto"
+  "embeddedLanguageFormatting": "auto",
+  "plugins": ["prettier-plugin-prisma"]
 }
