@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+jest/
 
 # next.js
 /.next/
@@ -38,3 +39,36 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE settings
+.idea/
+/.vscode/
+
+# Logs
+*.log
+
+# Swap files for Vim/Neovim
+*.swp
+*.swo
+
+# Dist and compressed files
+dist/
+*.tgz
+*.zip
+
+# Cache
+.parcel-cache/
+.webpack/
+.next/cache/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Sublime Text temporary files
+*.sublime-workspace
+*.sublime-project
+
+# Windows metadata
+Thumbs.db
+ehthumbs.db
