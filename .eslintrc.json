@@ -18,6 +18,16 @@
     "security/detect-child-process": "warn",
     "unicorn/prefer-query-selector": "error",
     "unicorn/no-array-callback-reference": "warn",
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "kebabCase": true,
+          "pascalCase": true
+        },
+        "ignore": ["README.md"]
+      }
+    ],
     "react/jsx-sort-props": [
       "warn",
       {

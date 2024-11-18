@@ -12,10 +12,8 @@
     "start": "next start"
   },
   "lint-staged": {
-    "*.json": [
-      "prettier --write"
-    ],
-    "*.{js,jsx,ts,tsx,css,scss,md}": [
+    "*.{json,css,svg}": "prettier --write",
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix"
     ]
