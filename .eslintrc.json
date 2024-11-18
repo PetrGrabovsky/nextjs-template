@@ -25,6 +25,17 @@
         "noSortAlphabetically": false,
         "reservedFirst": true
       }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "tabWidth": 2,
+        "ignoreUrls": false,
+        "ignoreStrings": false,
+        "ignoreTemplateLiterals": false,
+        "ignoreRegExpLiterals": false
+      }
     ]
   }
 }
