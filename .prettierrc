@@ -13,5 +13,9 @@
   "htmlWhitespaceSensitivity": "css",
   "quoteProps": "as-needed",
   "embeddedLanguageFormatting": "auto",
-  "plugins": ["prettier-plugin-prisma", "prettier-plugin-tailwindcss"]
+  "plugins": [
+    "prettier-plugin-prisma",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-packagejson"
+  ]
 }
